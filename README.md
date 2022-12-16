@@ -18,7 +18,7 @@ cd imBee-demo-website
 3. Start the server on development mode:
 
 ```
-npm run install
+npm install
 npm run dev
 ```
 
@@ -28,3 +28,7 @@ npm run dev
 npm run build
 npm run start
 ```
+
+-----
+
+About Me: https://www.gavinwang.net/
