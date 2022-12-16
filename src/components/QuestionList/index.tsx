@@ -106,7 +106,12 @@ const QuestionList = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Typography variant="h6">
+                <Typography
+                  variant="h6"
+                  sx={{
+                    wordBreak: 'break-word',
+                  }}
+                >
                   {he.decode(question.title)}
                 </Typography>
               </Link>
@@ -185,6 +190,7 @@ const QuestionList = () => {
                   textOverflow: 'ellipsis',
                   overflow: 'hidden',
                   whiteSpace: 'nowrap',
+                  maxWidth: '125px',
                 }}
                 mt={{
                   xs: 0,
