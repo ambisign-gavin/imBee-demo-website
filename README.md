@@ -11,8 +11,8 @@ A simple StackOverflow list website.
 1. Clone the repo:
 
 ```
-git clone --depth 1 git@github.com:ambisign-gavin/imBee-demo-website.git
-cd imBee-demo-website
+git clone --depth 1 git@github.com:ambisign-gavin/list-demo-website.git
+cd list-demo-website
 ```
 
 3. Start the server on development mode:
